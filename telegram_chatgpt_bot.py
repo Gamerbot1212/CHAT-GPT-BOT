@@ -7,8 +7,8 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+OPENAI_API_KEY = os.getenv("")
+TELEGRAM_BOT_TOKEN = os.getenv("7838437851:AAEX1gIQwieLUPJ8NUi1no4V5rlCeXeDme8")
 openai.api_key = OPENAI_API_KEY
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):

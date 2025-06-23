@@ -7,7 +7,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-OPENAI_API_KEY = os.getenv("")
+OPENAI_API_KEY = os.getenv("sk-svcacct-CLfeJLa97xxjL0PYSxF07CkUFMzjzAhQf0us7eHUqI81eqkb-w2KtB24gV3YtEkT3BlbkFJE4HhNuC7jU-gMHw8xj4cwXBdtoAdI05oUjE3eWFRwvoAyGjGWzeZMvybcC7C01wA")
 TELEGRAM_BOT_TOKEN = os.getenv("7838437851:AAEX1gIQwieLUPJ8NUi1no4V5rlCeXeDme8")
 openai.api_key = OPENAI_API_KEY
 

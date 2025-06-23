@@ -1,0 +1,1 @@
+startCommand: python telegram_chatgpt_bot.py
